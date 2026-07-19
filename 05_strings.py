@@ -54,3 +54,25 @@ text = "hello world"
 
 print(text.capitalize())
 print(text.isdigit())
+
+# F-Strings
+x = 20
+print(f"Your mark is {x}")
+
+x = 20.223456
+print(f"Your mark is {x:.2f}")
+
+x = 2034398575
+print(f"Your mark is {x:,.2f}")
+
+x = 20343985.2324
+print(f"Your mark is {x:50,.2f}")
+
+x = 20343985.2324
+print(f"Your mark is {x:050,.2f}")
+
+x = 20343985.2324
+print(f"Your mark is {x:^50,.2f}")
+
+x = 20343985.2324
+print(f"Your mark is {x:*^50,.2f}")
