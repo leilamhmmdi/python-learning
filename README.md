@@ -29,7 +29,13 @@ This repository contains my Python learning journey and practice exercises.
 - Random Module
 - Functions
 - Function Exercises
-
+- Function Arguments
+- Docstrings & Type Annotations
+- First-Class Functions
+- Decorators
+- Iterators & Iterables
+- Iterator Exercises
+- 
 ## Repository Structure
 
 ```text
@@ -57,6 +63,12 @@ This repository contains my Python learning journey and practice exercises.
 22_random_module.py
 23_functions.py
 24_function_exercises.py
+25_function_arguments.py
+26_docstring_annotations.py
+27_first_class_functions.py
+28_decorators.py
+29_iterator_iterable.py
+30_iterator_exercises.py
 README.md
 ```
 
