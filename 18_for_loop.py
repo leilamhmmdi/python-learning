@@ -126,3 +126,58 @@ for number in range(1, 10001):
 
     if total == number:
         print(number)
+
+# For Loop in Python
+
+# Print numbers from 0 to 9
+# for i in range(10):
+#     print(i)
+
+
+# Print even two-digit numbers
+for i in range(10, 100, 2):
+    print(i)
+
+
+# Print numbers in reverse order
+numbers = [1, 2, 3, 4, 5]
+for number in reversed(numbers):
+    print(number)
+
+
+# Count the number of digits
+number = input("Enter a number: ")
+print(len(number))
+
+
+# Check if a number is prime
+number = int(input("Enter a number: "))
+
+if number <= 1:
+    print("Invalid number")
+else:
+    is_prime = True
+
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print("Prime number")
+    else:
+        print("Not a prime number")
+
+
+# Sum numbers from 1 to 100
+total = sum(range(1, 101))
+print(total)
+
+
+# Print a square pattern
+size = 5
+
+for i in range(size):
+    for j in range(size):
+        print("*", end="")
+    print()
