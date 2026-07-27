@@ -16,26 +16,32 @@ This repository contains my Python learning journey and practice exercises.
 - Dictionaries
 - Sets
 - Booleans
-- User Registration Project
 - Conditional Statements
-- Conditional Statement Exercises
 - While Loops
-- While Loop Exercises
 - For Loops
-- For Loop Exercises
 - Dictionary Iteration
 - Break & Continue
 - Built-in Functions
 - Random Module
 - Functions
-- Function Exercises
 - Function Arguments
 - Docstrings & Type Annotations
-- First-Class Functions
+- First Class Functions
 - Decorators
 - Iterators & Iterables
-- Iterator Exercises
-- 
+- Generators
+- Lambda Functions
+- Map, Filter & Reduce
+- Number to Words Conversion
+- Object Oriented Programming (OOP)
+- Classes & Objects
+- Class Exercises
+- Inheritance
+- Encapsulation
+- Polymorphism
+- Magic Methods
+- Abstract Classes
+
 ## Repository Structure
 
 ```text
@@ -69,6 +75,13 @@ This repository contains my Python learning journey and practice exercises.
 28_decorators.py
 29_iterator_iterable.py
 30_iterator_exercises.py
-README.md
-```
-
+31_generators.py
+32_lambda_map_filter_reduce.py
+33_number_to_words.py
+34_classes.py
+35_class_exercises.py
+36_inheritance.py
+37_encapsulation.py
+38_polymorphism.py
+39_magic_methods.py
+40_abstract_classes.py
